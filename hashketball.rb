@@ -175,7 +175,6 @@ def player_stats(player)
         return v[:players][:player_name]
       end
     end    
-  end      
   
 end
 
