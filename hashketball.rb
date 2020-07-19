@@ -151,6 +151,9 @@ end
 
 def team_names
   
+  game_hash.each do |key, value|
+    
+  end
 end
 
 def player_numbers
