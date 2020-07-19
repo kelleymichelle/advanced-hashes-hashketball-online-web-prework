@@ -166,7 +166,7 @@ def player_numbers(team)
       end
     end
   end
-  return players_numbers.sort()
+  return players_numbers
 end
 
 def player_stats
