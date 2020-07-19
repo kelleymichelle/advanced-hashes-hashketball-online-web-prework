@@ -157,8 +157,16 @@ def team_names
   return teams
 end
 
-def player_numbers(player)
-  
+def player_numbers(team)
+  players_numbers = []
+  game_hash.each do |key, value|
+    if value[:team_name] == team
+      value[:players].each do |player|
+        players_numbers << player[:number]
+      end
+    end
+  end
+  return players_numbers.sort()
 end
 
 def player_stats
