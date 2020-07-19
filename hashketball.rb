@@ -118,7 +118,9 @@ end
 def num_points_scored(player)
   points = 0
   game_hash.each do |key, value|
-    binding.pry
+    value.each do |k, v|
+      binding.pry
+    end
   end
 end
 
