@@ -170,9 +170,9 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-  players_stats = {}
   game_hash.each do |key, value|
     value.each do |k, v|
+      binding.pry
       if v[:players][:player_name] == player
         return v[:players][:player_name]
       end
