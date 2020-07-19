@@ -146,7 +146,6 @@ def team_colors(team)
     color = value[:colors]
       end
     end
-  end
   return color
 end
 
