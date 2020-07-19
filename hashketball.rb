@@ -169,7 +169,15 @@ def player_numbers(team)
   return players_numbers
 end
 
-def player_stats
+def player_stats(player)
+  game_hash.each do |key, value|
+    value.each do |k, v|
+      binding.pry
+      if v[:player_name] == player
+        
+      end
+    end    
+  end      
   
 end
 
